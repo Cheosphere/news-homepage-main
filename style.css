@@ -21,6 +21,7 @@ body {
 }
 
 body {
+    min-height: 1024px;
     display: flex;
     justify-content: center;
     align-items: center;
