@@ -21,7 +21,6 @@ body {
 }
 
 body {
-    transform: scale(.88);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,14 +30,14 @@ body {
 }
 
 /* CONTAINER STYLES */
-/* .container {
+.container {
     width: 100%;
     max-width: 1440px;
     height: 1024px;
     padding: 5.6rem 10.3rem 5.6rem 10.35rem;
     position: relative;
     transition: all .235s ease-in-out;
-} */
+}
 
 /* HEADER AREA STYLES */
 .header {
