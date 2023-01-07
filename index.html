@@ -18,7 +18,95 @@
 <body>
   <!-- CONTAINER -->
   <main class="container">
-    <img src="design/desktop-design.jpg" alt="">
+    <!-- HEADER AERA -->
+    <header class="header">
+      <nav class="navbar">
+        <figure>
+          <img src="assets/images/logo.svg" alt="logo image">
+        </figure>
+        <span class="menu_mobile" id="menu_mobile"></span>
+        <!-- NAVMENU AREA -->
+        <ul class="navbar_menu" id="navbar_menu">
+          <li class="navbar_menu_item"><a href="javascript:;" class="navbar_menu_item_link">Home</a></li>
+          <li class="navbar_menu_item"><a href="javascript:;" class="navbar_menu_item_link">New</a></li>
+          <li class="navbar_menu_item"><a href="javascript:;" class="navbar_menu_item_link">Popular</a></li>
+          <li class="navbar_menu_item"><a href="javascript:;" class="navbar_menu_item_link">Trending</a></li>
+          <li class="navbar_menu_item"><a href="javascript:;" class="navbar_menu_item_link">Categories</a></li>
+        </ul>
+      </nav>
+    </header> 
+    <!-- CONTENT AREA -->
+    <div class="content">
+      <div class="content_left">
+        <picture class="content_left_hero">
+          <source media="(max-width:560px)" srcset="assets/images/image-web-3-mobile.jpg">
+          <img src="assets/images/image-web-3-desktop.jpg" class="content_left_hero_img" alt="hero image">
+        </picture> 
+        <article class="content_left_info">
+          <h1 class="content_left_info_title">The Bright <span class="span_1">Future of</span> <span class="span_2">Web 3.0?</span></h1>
+          <div class="content_left_info_cta">
+            <p class="content_left_info_cta_parag">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the
+              hands of the people. But is it really fulfilling its promise?
+            </p>
+            <button class="content_left_info_cta_btn">READ MORE</button>
+          </div>
+        </article>
+      </div>
+      <!-- ASIDE CONTENT AREA -->
+      <aside class="aside">
+        <article class="aside_content">
+          <h2 class="aside_content_title">New</h2>
+          <h3 class="aside_content_subtitle">Hydrogen VS Electric Cars</h3>
+          <p class="aside_content_parag">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </article>
+        <hr class="divider">
+        <article class="aside_content">
+          <h2 class="aside_content_subtitle">The Downsides of AI Artistry</h2>
+          <p class="aside_content_parag">What are the possible adverse effects of on-demand AI image generation?</p>
+        </article>
+        <hr class="divider">
+        <article class="aside_content">
+          <h2 class="aside_content_subtitle">Is VC Funding Drying Up?</h2>
+          <p class="aside_content_parag">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </article>
+      </aside>
+    </div>
+    <!-- FOOTER AREA -->
+    <footer class="footer">
+      <div class="footer_card">
+        <figure class="footer_image">
+          <img src="assets/images/image-retro-pcs.jpg" class="footer_image_img" alt="image retro pc">
+        </figure>
+        <article class="footer_card_info">
+          <h2 class="footer_card_info_number">01</h2>
+          <h3 class="footer_card_info_title">Reviving Retro PCs</h3>
+          <p class="footer_card_info_parag">What happens when old PCs are given modern upgrades?</p>
+        </article>
+      </div>
+      <div class="footer_card">
+        <figure class="footer_image">
+          <img src="assets/images/image-top-laptops.jpg" class="footer_image_img" alt="image retro pc">
+        </figure>
+        <article class="footer_card_info">
+          <h2 class="footer_card_info_number">02</h2>
+          <h3 class="footer_card_info_title">Top 10 Laptops of 2022</h3>
+          <p class="footer_card_info_parag">Our best picks for various needs and budgets.</p>
+        </article>
+      </div>
+      <div class="footer_card">
+        <figure class="footer_image">
+          <img src="assets/images/image-gaming-growth.jpg" class="footer_image_img" alt="image retro pc">
+        </figure>
+        <article class="footer_card_info">
+          <h2 class="footer_card_info_number">03</h2>
+          <h3 class="footer_card_info_title">The Growth of Gaming</h3>
+          <p class="footer_card_info_parag">How the pandemic has sparked fresh opportunities.</p>
+        </article>
+      </div>
+    </footer>
+    <div class="mask" id="mask"></div>
+  </main>
 </body>
 
 </html>
